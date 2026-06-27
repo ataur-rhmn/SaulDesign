@@ -1,0 +1,53 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    text-decoration: none;
+}
+.container{
+    width: 88vw;
+    padding: 5vh 0;
+    background: #222831;
+    margin: 0 auto;
+}
+
+/* Common Css End */
+
+/* HeaderPart Css Start */
+.headerPart{
+    width: 100vw;
+    background: #222831;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+nav ul li{
+    color: #EEEEEE;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* HeaderPart Css End */
+
+/* BannerPart Css Start */
+.bannerPart{
+    padding: 33vh 0 40vh 0;
+    background: #222831;
+}
+/* BannerPart Css End */
